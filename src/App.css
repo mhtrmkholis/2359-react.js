@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.love-icon i{
+  visibility: hidden;
+}
+
+.love-icon:hover i{
+  visibility: visible;
+}
+
+.favorited {
+  visibility: visible;
+}
+
+.ajs-message.ajs-same-value { 
+  color: #FFA500;  
+  background-color: rgba(0,0,0,0.6); 
+  border: none; 
+  font-size: 20px; 
+  text-align: center; 
+  border-radius: 3px; 
+}
+
+.ajs-message.ajs-unfav { 
+  color: #fff;  
+  background-color: rgba(205, 0, 0, 0.8); 
+  border: none; 
+  font-size: 20px; 
+  text-align: center; 
+  border-radius: 3px; 
+}
+
+.ajs-message.ajs-fav { 
+  color: #fff;  
+  background-color: rgba(0, 205, 0, 0.8); 
+  border: none; font-size: 20px; 
+  text-align: center; 
+  border-radius: 3px; 
+}
+
+.fetch-more {
+  margin-top: 50px;
+  cursor: pointer;
+  padding: 20px; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  background-color: rgba(0, 0, 0, 0.4); 
+  color: #fff; 
+  font-weight: bold; 
+  border-radius: 25px
+}
+
+.fetch-more:hover {
+  background-color: rgba(0,0,0,0.8); 
+}
