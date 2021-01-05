@@ -7,7 +7,7 @@
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
     "alertifyjs": "^1.11.4",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "react-alertify-js": "0.0.1",
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
